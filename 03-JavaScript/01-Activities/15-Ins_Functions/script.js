@@ -1,6 +1,6 @@
 // Functions are reusable blocks of code that perform a specific task
 // This is a function declaration 
-function declareHello() { 
+function declareHello(/*parameters */) { 
   console.log("Hello, I am a function declaration.");
   console.log("-----------------------------------");
   // Return stops the execution of a function

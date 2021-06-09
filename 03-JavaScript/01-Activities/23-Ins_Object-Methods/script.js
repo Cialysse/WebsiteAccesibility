@@ -20,6 +20,8 @@ var planet = {
 // Logs "Mars" using dot notation
 console.log(planet.neighboringPlanets[0]);
 
+// console.log(planet.neighborPlanets[2])
+
 // Logs "Mars" using bracket notation
 console.log(planet["neighboringPlanets"][0]);
 

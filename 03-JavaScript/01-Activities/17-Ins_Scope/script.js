@@ -4,7 +4,7 @@ var hello = "Hello";
 function sayHello() {
   console.log(hello);
   return;
-}
+ }
 
 var sayHelloAgain = function () {
   console.log(hello);
@@ -20,6 +20,7 @@ function sayGoodbye() {
   console.log(goodbye);
   return;
 }
+
 
 //This will throw an error
 var sayGoodbyeAgain = function () { 

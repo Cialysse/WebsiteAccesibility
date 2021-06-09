@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: antiquewhite;
+display: flex;
+justify-content: space-between;
+}
+
+.nav-bar-list {
+display:flex;
+}
+
+.nav-bar-list > li{
+    padding: 20px;
+   border-bottom: none;
+}
+
+.nav-bar-list {
+    list-style: none;
+
+}
+#about-me {
+    
+height: 100vh;    
+}
+
+#work-experience {
+    height: 100vh;   
+   
+    }
+    
+    #contact {
+        
+        height: 100vh;    
+        }

@@ -19,7 +19,9 @@ var planet = {
   logPopulation: function () {
     if (this.isPopulated) {
       // Logs "This planet's population is 7.594 billion"
-	  console.log("This planet's population is " + this.population);
+	
+      
+      console.log("This planet's population is " + this.population);
 	} else {
 	  console.log("The planet is unpopulated");
 	}   
@@ -29,3 +31,18 @@ var planet = {
 // Calls object methods
 planet.logFacts();
 planet.logPopulation();
+
+
+//console.log(window)
+//console.log(thid)
+
+//var student = {
+  //name: "Gabe",
+  //var text = function ()
+  //whoAmI: function() {
+    //console.log(this.name)
+    // text()
+  //}
+//}
+
+//student.whoAmI()

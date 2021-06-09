@@ -1,6 +1,9 @@
 var chosenPet = "Lulu";
 
-var shelter = {
+// var students = ""
+// var = "newStudents"
+
+var dogs = {
   dogs: ["Mackie", "Bernice", "Cookie Monster", "Spot"],
   cats: ["Astrid", "Lulu", "Fluffy", "Mouser"],
   apptMessage: function () {
@@ -8,10 +11,14 @@ var shelter = {
   }
 };
 
+// console.log(typeof.students)
+// console.log(typeof.newstudents)
+
+
 //Debug the code below 
 function dogMessage() {
-   console.log("Congrats! " + chosenPet.Lulu + ", a great dog, is available for adoption!");
-   apptMessage();
+   console.log("Congrats! " + chosenPet + ", a great dog, is available for adoption!");
+   shelter.apptMessage();
 }
 
 function catMessage() {
@@ -20,9 +27,9 @@ function catMessage() {
 }
 
 if (dogs.includes(chosenPet)) {
-  dogMessage();
+  shelter.dogMessage();
 } else if (cats.includes(chosenPet)) {
-  catMessage();
+  shelter.catMessage();
 } else {
   console.log("It looks like the pet is not available.");
   console.log("Check out our featured dog, " + shelter[0] + ". or our featured cat, " + cat.shelter[1]);
